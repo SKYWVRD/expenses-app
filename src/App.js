@@ -5,11 +5,13 @@ import NewExpense from './components/NewExpense/NewExpense'
 
 const DUMMY_DATA = [
   {
+    id: "e1",
     title: "Toilet Paper",
     amount: 420.69,
     date: new Date(2022, 2, 18)
   },
   {
+    id: "e2",
     title: "Car Insurance",
     amount: 2602.19,
     date: new Date(2022, 3, 1)
