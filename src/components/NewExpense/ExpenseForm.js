@@ -34,6 +34,8 @@ const ExpenseForm = (props) => {
         setEnteredAmount('');
         setEnteredDate('');
 
+        props.hideForm()
+
     }
 
     return (
