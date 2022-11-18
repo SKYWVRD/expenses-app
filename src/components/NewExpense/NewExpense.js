@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import ExpenseForm from './ExpenseForm'
-import './NewExpense.css'
+import styles from './NewExpense.module.css'
 
 const NewExpense = (props) => {
 
@@ -26,7 +26,7 @@ const NewExpense = (props) => {
 
 
     return (
-        <div className='new-expense '>
+        <div className={styles['new-expense']}>
             {
                 displayForm === false ?
                     <button onClick={displayFormHandler}>Add New Expense</button>
