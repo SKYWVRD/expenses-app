@@ -1,2 +1,2 @@
 # expenses-app
-Simple React Application to tract expenses
+Simple React Application to track expenses
