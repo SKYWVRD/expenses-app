@@ -24,9 +24,9 @@ const ExpensesChart = (props) => {
 
 
    return (
-    <div>
+    <React.Fragment>
         <Chart dataPoints={chartDataPoints} />
-    </div>
+    </React.Fragment>
    ) 
 }
 
